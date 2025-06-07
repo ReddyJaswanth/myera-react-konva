@@ -2,10 +2,14 @@
 
 A simple web application that allows users to create and arrange stickers on a canvas using React and react-konva.
 
+## Demo
+
+![Demo](Demo.gif)
+
 ## Features
 
 - 600 × 400 pixel canvas for placing stickers
-- Three sticker buttons (emojis) for adding new stickers
+- Three sticker buttons (emojis and PNG images) for adding new stickers
 - Draggable stickers on the canvas
 - Double-click to delete stickers
 - Stickers snap to a 40-pixel grid
@@ -26,7 +30,7 @@ A simple web application that allows users to create and arrange stickers on a c
 
 ## How to Use
 
-1. Click on any of the sticker buttons (😊, 🌟, 🎨) to add a sticker to the canvas
+1. Click on any of the sticker buttons to add a sticker to the canvas
 2. Drag stickers to position them on the canvas
 3. Double-click a sticker to delete it
 4. Click the "Download PNG" button to save your canvas as an image
