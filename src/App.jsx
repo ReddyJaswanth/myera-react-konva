@@ -50,9 +50,21 @@ function App() {
       />
       <div className="controls">
         <div className="sticker-buttons">
-          <StickerButton type="emoji1" onClick={() => addSticker('emoji1')} emoji="😊" />
-          <StickerButton type="emoji2" onClick={() => addSticker('emoji2')} emoji="🌟" />
-          <StickerButton type="emoji3" onClick={() => addSticker('emoji3')} emoji="🎨" />
+          <StickerButton
+            type="emoji1"
+            onClick={() => addSticker('emoji1')}
+            emoji="😊"
+          />
+          <StickerButton
+            type="bar-chart"
+            onClick={() => addSticker('bar-chart')}
+            image="/stickers/bar-chart.png"
+          />
+          <StickerButton
+            type="brainstorm"
+            onClick={() => addSticker('brainstorm')}
+            image="/stickers/brainstorm.png"
+          />
         </div>
         <DownloadButton onClick={downloadCanvas} />
       </div>
